@@ -1,0 +1,30 @@
+body{font-family: verdana;font-size: 12px;color: black;width:90%;}
+nav{font-family: verdana;font-size: 12px;color: black;}
+header{font-family: verdana;font-size: 12px;color: black;}
+footer{font-family: verdana;font-size: 12px;color: gray;}
+article{font-family: verdana;font-size: 12px;color: gray;}
+h2{color: #666666;}
+ul{list-style-type:none;
+margin:0;
+padding:0;}
+li{display: inline;}
+a:link,a:visited
+{
+font-family:verdana,san-serif;
+font-size: 14px;
+color:#999999;
+
+text-align:center;
+margin:15px;
+text-decoration:none;
+
+}
+a:hover,a:active
+{
+color:red;
+}
+section
+{font-family: verdana;
+font-size: 12px;
+
+}

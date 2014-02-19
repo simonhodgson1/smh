@@ -1,0 +1,74 @@
+/*style sheet for smh*/
+
+
+
+body
+{font-family: verdana;font-size: 12px;color: #999999;}
+nav
+{font-family: verdana;font-size: 12px;color: black;}
+header
+{font-family: verdana;font-size: 12px;color: black;}
+footer
+{font-family: verdana;font-size: 12px;color: gray;}
+article
+{font-family: verdana;font-size: 12px;color: gray;}
+section
+{font-family: verdana;font-size: 12px;color: gray;}
+footer
+{float: right;font-family: verdana;font-size: 12px;color: gray;}
+h2
+{color: #666666;background-color: silver;}
+h3
+{color: #666666;background-color: silver;}
+h4
+{color: #666666;background-color: silver;}
+img
+{border:0px;}
+ul
+{list-style-type:none;
+ margin:0;
+ padding:0;}
+/*li{display: inline;}*/
+a
+{
+    padding: 0px;
+    margin:0px;
+    border:0px;
+}
+a:link,a:visited
+{
+    font-family:verdana,san-serif;
+    font-size: 12px;
+    color:#999999;
+    border:0px;
+    text-align:center;
+    margin:0px;
+    text-decoration:none;
+
+}
+a:hover,a:active
+{
+    border:0px;
+    color:red;
+}
+div.img
+{
+    margin:0px;
+    height:auto;
+    width:auto;
+    border: 0px;
+
+}
+div.img img
+{
+    display: inline;
+    margin:0px;
+    border: 0px;
+    padding: 0px;
+}
+div.img a:hover img
+{
+    border:0px;
+    margin:0px;
+    padding: 0px;
+}

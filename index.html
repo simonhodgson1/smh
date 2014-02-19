@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+            <title>Simon Hodgson</title>
+      <link rel="stylesheet" type="text/css" href="smhstylin.css" media="screen"/>
+               <script type="text/javascript" src="jquery.min.js"></script>         <script type="text/javascript" src="jquery.js"></script>
+
+      </head>
+      <body>
+
+                    <div id="logo" style="position:absolute; top:0px ;left:10px;float: left;visibility: visible;padding: 15px;">
+                    <img src="images/img/name.jpg" width="257" height="64" alt="Simon Hodgson"></img>
+                    </div>
+            <nav id="mainnavElement" >
+                <script type="text/javascript">
+                    document.write(menu);
+                </script>
+                
+            </nav>
+
+          <div id="uc" style="position:absolute; top:225px ;left:10px;float: left;visibility: visible;padding: 15px;">parts of this site are still under construction...</div>
+
+<article>
+   
+	<section style="position: absolute; top:250px; left:10px;float: left;visibility: visible;padding: 15px;">
+
+                   <script language="JavaScript1.1">
+                var delay=3000; //set delay in miliseconds
+var curindex=0;
+
+
+var randomimages=["images/sculptures/ticker1.jpg","images/sculptures/ticker2.jpg","images/sculptures/ticker3.jpg"];
+
+var preload=[],img,curindex,tempindex;
+
+for (var n=0;n<randomimages.length;n++)
+{
+	img=new Image();
+	img.src=randomimages[n];
+	preload.push(img);
+}
+
+document.write('<img name="defaultimage" src="'+randomimages[Math.floor(Math.random()*(randomimages.length))]+'">');
+
+function rotateimage()
+{
+	if (curindex==(tempindex=Math.floor(Math.random()*(randomimages.length)))){
+		curindex=curindex==0 ? 1 : curindex-1;
+	} else {
+		curindex=tempindex;
+	}
+
+	document.images.defaultimage.src=randomimages[curindex];
+}
+
+window.setInterval(rotateimage,delay);
+
+                    </script>
+
+        </section>
+ </div>
+  
+</article>
+
+
+<footer style="position: absolute; top:680px; left:900px;float: left;visibility: visible;padding: 15px;">
+	<h5>&copy;2013 Simon Hodgson</h5> 
+</footer>
+
+</body>
+</html>
